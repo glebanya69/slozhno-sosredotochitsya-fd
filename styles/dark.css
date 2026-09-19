@@ -14,3 +14,7 @@
   --link-shadow: var(--title-shadow);
   --rec-color: var(--title-shadow);
 }
+
+.page.theme_dark .header__rec {
+  display: block;
+}
