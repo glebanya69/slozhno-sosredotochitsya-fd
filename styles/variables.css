@@ -1,20 +1,25 @@
 :root {
-  --show-rec: flex;
-  --background-color: #000028;
-  --background-image: url(../images/cover-image-dark.png);
-  --accent-color: #ff0070;
-  --heading-color: var(--accent-color);
+  --font-family: "IBM Plex mono", monospace;
+  --bg-color: #000028;
   --text-color: #f1b2ce;
-  --color-title: #db00ff;
-  --edge-color: var(--accent-color);
-  --color-subtitle: var(--background-color);
-  --color-hover-button-menu: rgba(255, 0, 112, 0.4);
-  --text-heading-subtitle: var(--accent-color);
-  --color-theme: var(--accent-color);
-  --text-size: 18px;
-  --line-height: 23.4px;
-  --text-weight: 400;
-  --text-header-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --text-font: "IBM Plex Mono", monospace;
-  --font-weight-title: 700;
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --on-accent-color: #000028;
+  --section-title-color: #ff0070;
+  --stroke-color: #ff0070;
+  --stroke-color-soft: rgba(255, 0, 112, 0.4);
+  --cover-image: url("../images/cover-image-dark.png");
+  --page-padding: 10px;
+  --section-gap: 50px;
+  --main-padding-block: 40px;
+  --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
+
+@media (width >= 768px) {
+  :root {
+    --page-padding: 20px;
+    --section-gap: 80px;
+    --main-padding-block: 60px;
+    --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }
