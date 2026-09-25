@@ -1,20 +1,13 @@
-.page.theme_dark {
-  --title: #FF0070;
-  --background-title-color: #FF0070;
-  --main-text-color: #f1b2ce;
-  --title-color: #db00ff;
-  --title-shadow: #FF0070;
-  --text: #000028;
-  --hover-color: 1px solid rgba(255, 0, 112, 0.4);
+.theme-dark .page {
+  --show-rec: flex;
   --background-color: #000028;
-  --title-decor: var(--title-shadow);
   --background-image: url(../images/cover-image-dark.png);
-  --border-color: var(--title);
-  --corners-color: var(--title-shadow);
-  --link-shadow: var(--title-shadow);
-  --rec-color: var(--title-shadow);
-}
-
-.page.theme_dark .header__rec {
-  display: block;
+  --accent-color: #ff0070;
+  --heading-color: var(--accent-color);
+  --text-color: #f1b2ce;
+  --color-title: #db00ff;
+  --edge-color: var(--accent-color);
+  --color-subtitle: var(--background-color);
+  --text-heading-subtitle: var(--accent-color);
+  --color-hover-button-menu: rgba(255, 0, 112, 0.4);
 }
